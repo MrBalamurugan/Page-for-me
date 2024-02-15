@@ -75,7 +75,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         )}
                     </div>
                 </div>
-                <img
+                { <img
                     src={headerData.image}
                     alt=''
                     className='landing--img'
@@ -83,7 +83,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         opacity: `${drawerOpen ? '0' : '1'}`,
                         borderColor: theme.primary,
                     }}
-                />
+                /> }
                 <div
                     className='landing--container-right'
                     style={{ backgroundColor: theme.secondary }}
@@ -96,9 +96,9 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
-                                'Fullstack Developer']}
+                                'UI/UX Designer...',
+                                'Frontend Developer...',
+                                'Cloud Engineer...']}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-header"
