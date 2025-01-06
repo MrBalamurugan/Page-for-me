@@ -24,6 +24,7 @@ import graphql from '../assets/svg/skills/graphql.svg'
 import html from '../assets/svg/skills/html.svg'
 import illustrator from '../assets/svg/skills/illustrator.svg'
 import java from '../assets/svg/skills/java.svg'
+import jenkins from '../assets/svg/skills/jenkins.svg'
 import javascript from '../assets/svg/skills/javascript.svg'
 import julia from '../assets/svg/skills/julia.svg'
 import kotlin from '../assets/svg/skills/kotlin.svg'
@@ -59,6 +60,7 @@ import vuetifyjs from '../assets/svg/skills/vuetifyjs.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
 
+import filmoralogoicon from '../assets/svg/skills/filmora-logo-icon.svg'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -145,6 +147,8 @@ export const skillsImage = (skill) => {
             return go;
         case 'java':
             return java;
+        case 'Jenkins':
+            return jenkins;
         case 'kotlin':
             return kotlin;
         case 'julia':
@@ -169,6 +173,8 @@ export const skillsImage = (skill) => {
             return django;
         case 'firebase':
             return firebase;
+        case 'Flimora':
+            return filmoralogoicon;
         case 'gimp':
             return gimp;
         case 'git':

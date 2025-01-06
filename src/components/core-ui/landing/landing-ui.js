@@ -9,7 +9,7 @@ import {
     FaFacebook, FaGithub, FaLinkedin, FaTwitter
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
-
+import balaimg from '../../core-ui/landing/BalaPassport.png'
 function LandingUI({ theme, drawerOpen, classes }) {
 
 
@@ -76,7 +76,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                     </div>
                 </div>
                 { <img
-                    src={headerData.image}
+                    src={balaimg}
                     alt=''
                     className='landing--img'
                     style={{

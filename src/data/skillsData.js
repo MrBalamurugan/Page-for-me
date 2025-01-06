@@ -21,8 +21,9 @@ export const skillsData = [
     'Azure',
     'Jenkins',
     'Photoshop',
-    'Canvas',
-    'Flimora'
+    'Canva',
+    'Flimora',
+    'Java'
 
 ]
 

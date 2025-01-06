@@ -8,6 +8,7 @@ import { IoClose } from 'react-icons/io5';
 import { ThemeContext } from '../../../contexts/theme-context';
 import { contactsData } from '../../../data/contactsData';
 import './contacts.css';
+import icons8indeed from '../../core-ui/contacts/icons8-indeed-16.png'
 
 const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactForm, name, setName, form, email, setEmail, message, setMessage }) => {
   const { theme } = useContext(ThemeContext);
@@ -203,7 +204,8 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   rel='noreferrer'
                   className={classes.socialIcon}
                 >
-                  <FaMediumM aria-label='Medium' />
+                  {/* <FaMediumM aria-label='Medium' /> */}
+                 
                 </a>
               )}
 
@@ -225,7 +227,8 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   rel='noreferrer'
                   className={classes.socialIcon}
                 >
-                  <FaStackOverflow aria-label='Stack Overflow' />
+                  {/* <FaStackOverflow aria-label='Stack Overflow' /> */}
+                
                 </a>
               )}
               {contactsData.facebook && (
