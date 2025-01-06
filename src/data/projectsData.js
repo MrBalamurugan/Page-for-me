@@ -1,5 +1,3 @@
-import eight from '../assets/svg/projects/eight.svg'
-import seven from '../assets/svg/projects/seven.svg'
 import w3school from '../assets/svg/projects/W3Schools_logo.png'
 
 

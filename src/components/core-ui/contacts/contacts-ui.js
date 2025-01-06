@@ -1,14 +1,14 @@
 import { IconButton, Snackbar, SnackbarContent } from '@mui/material';
 import React, { useContext } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
-import { FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoClose } from 'react-icons/io5';
 import { ThemeContext } from '../../../contexts/theme-context';
 import { contactsData } from '../../../data/contactsData';
 import './contacts.css';
-import icons8indeed from '../../core-ui/contacts/icons8-indeed-16.png'
+
 
 const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactForm, name, setName, form, email, setEmail, message, setMessage }) => {
   const { theme } = useContext(ThemeContext);
