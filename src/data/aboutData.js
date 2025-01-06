@@ -1,5 +1,12 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name is BalaMurugan S. I'm a web designer and developer based in Dhaka, Bangladesh.",
-    description2: "I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. Love almost all the stacks of Software Engineering. My current stack includes Nodejs, Nestjs, React, NextJs, Redux, Bootstrap, Ant Design, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, etc.",
+    description1: "My name is BalaMurugan S. I'm a web designer and developer",
+    description2: `I have completed 3 years of experience in the IT industry, 
+    including 2.3 years focused on front-end development using JavaScript, 
+    primarily with React.js. Skilled in building responsive, user-friendly websites
+     with strong abilities in testing and debugging. Experienced in UI design through 
+     Figma and proficient in creating custom website designs using Photoshop and Adobe 
+     Illustrator to enhance visual appeal. Familiar with Agile methodology, ensuring iterative
+      progress and collaborative development.
+     Committed to delivering high-quality, engaging user experiences.`,
 }
